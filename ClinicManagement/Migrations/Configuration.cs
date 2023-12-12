@@ -10,7 +10,6 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "ClinicManagement.Persistence.ApplicationDbContext";
         }
 
         protected override void Seed(ClinicManagement.Persistence.ApplicationDbContext context)
